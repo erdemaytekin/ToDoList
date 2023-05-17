@@ -1,0 +1,30 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:text="Buranın ne olduğunu görmek için yazdım." />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
