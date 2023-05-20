@@ -1,12 +1,18 @@
 package com.example.todo.Model;
 
 public class ToDoModel {
-    private int id,status;
+    private int id;
+    private int status;
     private String task;
-
+    private String username;
+    private String password;
 
     public String getTask() {
         return task;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
     }
 
     public int getId() {
@@ -25,7 +31,19 @@ public class ToDoModel {
         this.status = status;
     }
 
-    public void setTask(String task) {
-        this.task = task;
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
